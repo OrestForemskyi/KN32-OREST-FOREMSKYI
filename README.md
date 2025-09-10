@@ -37,4 +37,4 @@
 - Для цього потрібно увійти у свій GitHub акаунт через VS Code.
 
 ---
-[На другий документ](../KN32-OREST-FOREMSKYI/init/README.md)
+[На другий документ](./init/README.md)
