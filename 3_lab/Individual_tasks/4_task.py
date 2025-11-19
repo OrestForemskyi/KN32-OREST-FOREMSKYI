@@ -53,7 +53,8 @@ names = ("Bohdan", "Marta", None)
 all_names = {name: MyName(name) for name in names}
 
 
-# Кількість елементів 
+# Кількість імен у словнику — 3, бо створено 3 обєкти.
+# Різниця може бути, якщо ключі словника повторюються
 print(f"Number of elements in names list: {len(names)}")
 
 for name, me in all_names.items():
