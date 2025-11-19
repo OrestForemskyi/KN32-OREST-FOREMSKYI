@@ -1,0 +1,7 @@
+Коли передаємо значення None, в конструкторі класу використовується умова:
+
+self.name = name if name is not None else self.anonymous_user().name
+
+
+Оскільки name is None, виконується self.anonymous_user(), який створює обєкт з імям "Anonymous". 
+Тому у випадку None імя обєкта автоматично встановлюється як Anonymous.
