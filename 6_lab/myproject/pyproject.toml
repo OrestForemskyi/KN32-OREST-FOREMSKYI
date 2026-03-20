@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "myproject"
+version = "0.1.0"
+description = "Lab 6 project"
+authors = ["Orest"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
